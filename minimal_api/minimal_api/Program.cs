@@ -14,12 +14,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-string[] nombres = { "juan", "pedro", "pedro","ana" };
-
-app.MapGet("/saludo", () =>
+app.MapGet("/ListarClientes", () =>
 {
-    var nombresEncontrados = nombres.Where(nombres => nombres == "pedro");
-    return nombresEncontrados;
+
 });
 
 app.Run();
