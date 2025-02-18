@@ -1,3 +1,5 @@
+using minimal_api.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,9 +16,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+VentasCorporativasDbContext context = new VentasCorporativasDbContext();
+
 app.MapGet("/ListarClientes", () =>
 {
+    return context.Clientes.ToList();
+});
 
+app.MapGet("/ClientePorId/{id}", (int id) =>
+{
+    return context.Clientes.Find(id);
 });
 
 app.Run();
