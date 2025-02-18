@@ -1,0 +1,28 @@
+﻿@model List<Alumno>
+<h2 style="text-align:center">LISTADO DE ALUMNOS</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Alumno p in Model)
+        {
+            <tr>
+                <td>@p.Nombre</td>
+                <td>@p.Apellido</td>
+                <td>
+                    <a class=" btn btn-danger" asp-action="Delete" asp-route-id="@p.Id" asp-controller="Alumno">ELIMINAR</a>
+                    <a class=" btn btn-info" asp-action="Details" asp-route-id="@p.Id" asp-controller="Alumno">DETALLES</a>
+                    <a class=" btn btn-dark" asp-action="Edit" asp-route-id="@p.Id" asp-controller="Alumno">EDITAR</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a class=" btn btn-primary" asp-action="Create" asp-controller="Alumno">AÑADIR ALUMNO</a>

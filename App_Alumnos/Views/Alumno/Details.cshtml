@@ -1,0 +1,20 @@
+﻿@model Alumno
+
+<h2 style="text-align:center">DETALLE DEL ALUMNO</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Nombre</td>
+            <td>@Model.Apellido</td>
+        </tr>
+    </tbody>
+
+</table>
+<br />
+<a class=" btn btn-primary" asp-action="Index" asp-controller="Alumno">VOLVER</a>

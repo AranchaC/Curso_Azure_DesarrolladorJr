@@ -1,0 +1,18 @@
+﻿@model Alumno
+
+<h2 style="text-align:center">EDITAR ALUMNO</h2>
+
+<form method="post" asp-action="Edit">
+    <div class="form-group">
+        <label for="Nombre">NOMBRE</label>
+        <input type="text" asp-for=Nombre class="form-control" id="Nombre" style="margin-top:5px;" />
+    </div>
+    <div class="form-group">
+        <label for="Direccion">APELLIDO</label>
+        <input type="text" asp-for=Apellido class="form-control" id="Apellido" style="margin-top:5px;" />
+    </div>
+
+    <button type="submit" class="btn btn-danger" style="margin-top:8px;">ACTUALIZAR ALUMNO</button>
+</form>
+<br />
+<a class=" btn btn-primary" asp-action="Index" asp-controller="Alumno">VOLVER</a>

@@ -1,0 +1,6 @@
+@WebAppi_VentasCorporativas_HostAddress = http://localhost:5083
+
+GET {{WebAppi_VentasCorporativas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

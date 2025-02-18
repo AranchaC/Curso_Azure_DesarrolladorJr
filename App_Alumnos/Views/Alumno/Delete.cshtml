@@ -1,0 +1,21 @@
+﻿@model Alumno
+<h2 style="text-align:center">ELIMINAR ALUMNO</h2>
+<h4>¿Seguro que quieres eliminar al alumno?</h4>
+
+<div>
+    <h4><strong>@Model.Nombre  @Model.Apellido</strong></h4>
+    <br />
+@*     <dl class="d-lg-flex">
+        <dt>Nombre: </dt>
+        <dd>@Model.Nombre</dd>
+        <dt>Apellido: </dt>
+        <dd>@Model.Apellido</dd>
+    </dl> *@
+
+</div>
+
+<form method="post" asp-action="DeleteConfirmed" asp-route-id="@Model.Id">
+    <input type="submit" class="btn btn-danger" value="ELIMINAR" style="margin-bottom:5px;" />
+    <a class="btn btn-secondary" asp-action="Index" asp-controller="Alumno" style="margin-bottom:5px;" +->VOLVER AL INICIO</a>
+</form>
+
