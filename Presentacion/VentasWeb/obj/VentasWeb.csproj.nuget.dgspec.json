@@ -1,0 +1,506 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\VentasWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Global.DESKTOP-KSBK6EF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj",
+        "projectName": "Intercfaces",
+        "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj",
+        "packagesPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Global.DESKTOP-KSBK6EF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Negocios\\Negocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Negocios\\Negocios.csproj",
+        "projectName": "Negocios",
+        "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Negocios\\Negocios.csproj",
+        "packagesPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Negocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Global.DESKTOP-KSBK6EF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj",
+        "projectName": "Persistencias",
+        "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj",
+        "packagesPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Global.DESKTOP-KSBK6EF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Presentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Presentacion.csproj",
+        "projectName": "Presentacion",
+        "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Presentacion.csproj",
+        "packagesPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Global.DESKTOP-KSBK6EF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\VentasWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\VentasWeb.csproj",
+        "projectName": "VentasWeb",
+        "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\VentasWeb.csproj",
+        "packagesPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Global.DESKTOP-KSBK6EF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\Intercfaces.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Negocios\\Negocios.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Negocios\\Negocios.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Persistencias\\Persistencias.csproj"
+              },
+              "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Presentacion.csproj": {
+                "projectPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Presentacion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

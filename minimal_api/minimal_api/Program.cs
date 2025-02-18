@@ -28,6 +28,24 @@ app.MapGet("/ClientePorId/{id}", (int id) =>
     return context.Clientes.Find(id);
 });
 
+app.MapGet("/ClientePorNombre/{nombre}", (string nombre) =>
+{
+    return context.Clientes.Where(cli => cli.Nombre == nombre).ToList();
+});
+
+app.MapPost("/AgregarCliente/", (Cliente cliente) =>
+{
+    bool estado = false;
+    try
+    {
+        context.Clientes.Add(cliente);
+        context.SaveChanges();
+        estado = true;
+    }
+    catch { }
+    return estado;
+});
+
 app.Run();
 
 

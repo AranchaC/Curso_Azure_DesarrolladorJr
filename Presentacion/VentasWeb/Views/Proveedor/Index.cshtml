@@ -1,0 +1,26 @@
+﻿@model List<Proveedor>
+@using Entidades;
+
+<h2 style="color: burlywood; text-align: center; background-color: seagreen">PROVEEDORES</h2>
+
+<table class="table table-striped table-hover table-custom">
+	<thead class="table-active">
+		<tr>
+			<th>ID</th>
+			<th>NOMBRE</th>
+			<th>DIRECCIÓN</th>
+			<th>TELÉFONO</th>
+		</tr>
+
+	</thead>
+	<tbody>
+	@foreach(Proveedor proveedor in Model){
+		<tr>
+			<td> @proveedor.ID</td>
+			<td> @proveedor.Nombre</td>
+			<td> @proveedor.Direccion</td>
+			<td> @proveedor.Telefono</td>
+		</tr>
+	}
+	</tbody>
+</table>

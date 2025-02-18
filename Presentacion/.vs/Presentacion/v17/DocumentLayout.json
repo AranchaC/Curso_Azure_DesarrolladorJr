@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\ventasweb\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|solutionrelative:ventasweb\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\ventasweb\\views\\proveedor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|solutionrelative:ventasweb\\views\\proveedor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D058AA85-B1B2-4718-8E84-1774A5BCD276}|Entidades\\Entidades.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D058AA85-B1B2-4718-8E84-1774A5BCD276}|Entidades\\Entidades.csproj|solutionrelative:entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\ventasweb\\views\\proveedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|solutionrelative:ventasweb\\views\\proveedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\ventasweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|solutionrelative:ventasweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\ventasweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0344FD0-D35D-4E94-8829-AD440F67AD23}|VentasWeb\\VentasWeb.csproj|solutionrelative:ventasweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D44C37D-AFE2-4503-85DF-71CA845534D6}|Intercfaces\\Intercfaces.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\intercfaces\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D44C37D-AFE2-4503-85DF-71CA845534D6}|Intercfaces\\Intercfaces.csproj|solutionrelative:intercfaces\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F1D744-9DFF-4730-B0F8-BACCA929D61C}|Presentacion\\Presentacion.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\presentacion\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F1D744-9DFF-4730-B0F8-BACCA929D61C}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Presentacion\\Program.cs",
+              "RelativeToolTip": "Presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T17:41:10.866Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Entidades\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Entidades\\Proveedor.cs",
+              "RelativeToolTip": "Entidades\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:49:31.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Views\\Proveedor\\Create.cshtml",
+              "RelativeDocumentMoniker": "VentasWeb\\Views\\Proveedor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Views\\Proveedor\\Create.cshtml",
+              "RelativeToolTip": "VentasWeb\\Views\\Proveedor\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T17:48:23.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Views\\Proveedor\\Index.cshtml",
+              "RelativeDocumentMoniker": "VentasWeb\\Views\\Proveedor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Views\\Proveedor\\Index.cshtml",
+              "RelativeToolTip": "VentasWeb\\Views\\Proveedor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T19:42:28.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProveedorController.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Controllers\\ProveedorController.cs",
+              "RelativeDocumentMoniker": "VentasWeb\\Controllers\\ProveedorController.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Controllers\\ProveedorController.cs",
+              "RelativeToolTip": "VentasWeb\\Controllers\\ProveedorController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:36:39.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VentasWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VentasWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T18:34:14.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Program.cs",
+              "RelativeDocumentMoniker": "VentasWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\VentasWeb\\Program.cs",
+              "RelativeToolTip": "VentasWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T18:21:21.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\ICRUD.cs",
+              "RelativeDocumentMoniker": "Intercfaces\\ICRUD.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\Presentacion\\Intercfaces\\ICRUD.cs",
+              "RelativeToolTip": "Intercfaces\\ICRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T17:48:28.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\bin\Debug\net8.0\Intercfaces.deps.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\bin\Debug\net8.0\Intercfaces.runtimeconfig.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\bin\Debug\net8.0\Intercfaces.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\bin\Debug\net8.0\Intercfaces.pdb
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.csproj.AssemblyReference.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.AssemblyInfoInputs.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.AssemblyInfo.cs
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.csproj.CoreCompileInputs.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.sourcelink.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\refint\Intercfaces.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.pdb
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\Intercfaces.genruntimeconfig.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Presentacion\Intercfaces\obj\Debug\net8.0\ref\Intercfaces.dll
