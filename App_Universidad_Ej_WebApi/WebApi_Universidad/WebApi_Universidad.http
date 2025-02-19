@@ -1,0 +1,6 @@
+@WebApi_Universidad_HostAddress = http://localhost:5236
+
+GET {{WebApi_Universidad_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
