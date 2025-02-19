@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\proyecto_interfaces_simple\\proyecto_interfaces_simple\\persistir_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|solutionrelative:proyecto_interfaces_simple\\persistir_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\proyecto_interfaces_simple\\proyecto_interfaces_simple\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|solutionrelative:proyecto_interfaces_simple\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\proyecto_interfaces_simple\\proyecto_interfaces_simple\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|solutionrelative:proyecto_interfaces_simple\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\proyecto_interfaces_simple\\proyecto_interfaces_simple\\actividad_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C78AD1-B600-4C32-9F8C-24C574A7DB46}|Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple.csproj|solutionrelative:proyecto_interfaces_simple\\actividad_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\Cliente.cs",
+              "RelativeDocumentMoniker": "Proyecto_Interfaces_simple\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\Cliente.cs",
+              "RelativeToolTip": "Proyecto_Interfaces_simple\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:16:38.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Persistir_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\Persistir_Cliente.cs",
+              "RelativeDocumentMoniker": "Proyecto_Interfaces_simple\\Persistir_Cliente.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\Persistir_Cliente.cs",
+              "RelativeToolTip": "Proyecto_Interfaces_simple\\Persistir_Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:12:14.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Actividad_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\Actividad_Cliente.cs",
+              "RelativeDocumentMoniker": "Proyecto_Interfaces_simple\\Actividad_Cliente.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\Actividad_Cliente.cs",
+              "RelativeToolTip": "Proyecto_Interfaces_simple\\Actividad_Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:07:19.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\ICRUD.cs",
+              "RelativeDocumentMoniker": "Proyecto_Interfaces_simple\\ICRUD.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Proyecto_Interfaces_simple\\Proyecto_Interfaces_simple\\ICRUD.cs",
+              "RelativeToolTip": "Proyecto_Interfaces_simple\\ICRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:22:29.294Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
