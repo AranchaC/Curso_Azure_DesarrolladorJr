@@ -1,0 +1,15 @@
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\bin\Debug\net8.0\novedades_net8.exe
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\bin\Debug\net8.0\novedades_net8.deps.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\bin\Debug\net8.0\novedades_net8.runtimeconfig.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\bin\Debug\net8.0\novedades_net8.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\bin\Debug\net8.0\novedades_net8.pdb
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.AssemblyInfoInputs.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.AssemblyInfo.cs
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.csproj.CoreCompileInputs.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.sourcelink.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\refint\novedades_net8.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.pdb
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\novedades_net8.genruntimeconfig.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\novedades_net8\novedades_net8\obj\Debug\net8.0\ref\novedades_net8.dll

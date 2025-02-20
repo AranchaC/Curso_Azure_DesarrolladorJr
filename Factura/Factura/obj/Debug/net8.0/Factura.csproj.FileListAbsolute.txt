@@ -1,0 +1,15 @@
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\bin\Debug\net8.0\Factura.exe
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\bin\Debug\net8.0\Factura.deps.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\bin\Debug\net8.0\Factura.runtimeconfig.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\bin\Debug\net8.0\Factura.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\bin\Debug\net8.0\Factura.pdb
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.AssemblyInfoInputs.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.AssemblyInfo.cs
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.csproj.CoreCompileInputs.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.sourcelink.json
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\refint\Factura.dll
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.pdb
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\Factura.genruntimeconfig.cache
+C:\Users\Global.DESKTOP-KSBK6EF\source\repos\Factura\Factura\obj\Debug\net8.0\ref\Factura.dll
