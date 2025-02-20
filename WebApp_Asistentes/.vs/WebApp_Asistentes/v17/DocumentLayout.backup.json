@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webapp_asistentes\\webapp_asistentes\\views\\asistente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|solutionrelative:webapp_asistentes\\views\\asistente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webapp_asistentes\\webapp_asistentes\\controllers\\asistentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|solutionrelative:webapp_asistentes\\controllers\\asistentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webapp_asistentes\\webapp_asistentes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|solutionrelative:webapp_asistentes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webapp_asistentes\\webapp_asistentes\\models\\asistentesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD52E04-2D5B-4F73-8805-8E01A14BAC0A}|WebApp_Asistentes\\WebApp_Asistentes.csproj|solutionrelative:webapp_asistentes\\models\\asistentesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Views\\Asistente\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp_Asistentes\\Views\\Asistente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Views\\Asistente\\Index.cshtml*",
+              "RelativeToolTip": "WebApp_Asistentes\\Views\\Asistente\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T20:01:34.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp_Asistentes\\Program.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Program.cs",
+              "RelativeToolTip": "WebApp_Asistentes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:55:49.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AsistenteController.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Controllers\\AsistenteController.cs",
+              "RelativeDocumentMoniker": "WebApp_Asistentes\\Controllers\\AsistenteController.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Controllers\\AsistenteController.cs",
+              "RelativeToolTip": "WebApp_Asistentes\\Controllers\\AsistenteController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:38:58.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AsistentesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Models\\AsistentesDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp_Asistentes\\Models\\AsistentesDbContext.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApp_Asistentes\\WebApp_Asistentes\\Models\\AsistentesDbContext.cs",
+              "RelativeToolTip": "WebApp_Asistentes\\Models\\AsistentesDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:02:19.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

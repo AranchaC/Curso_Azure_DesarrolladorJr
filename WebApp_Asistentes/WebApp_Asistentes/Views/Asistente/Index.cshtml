@@ -1,0 +1,25 @@
+﻿@model List<Asistente>
+
+<h2 style="background-color: aquamarine; text-align: center"> Lista de asistentes</h2>
+<table class="table border-info table-bordered">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Edad</th>
+		</tr>
+	</thead>
+	<thbody>
+		@foreach(var asistente in Model){
+			<tr>
+				<td>@asistente.Id</td>
+				<td>@asistente.Nombre</td>
+				<td>@asistente.Apellido</td>
+				<td>@asistente.Edad</td>
+			</tr>
+		}
+	</thbody>
+</table>
+<br/>
+<button class="btn btn-primary">VOLVER</button>
