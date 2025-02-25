@@ -9,76 +9,43 @@ namespace WebAppi_Almacenes.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    public class AlmacenesController : ControllerBase, ICRUD<Almacen>
+    public class AlmacenesController : ControllerBase
     {
+        private readonly ICRUD<Almacen> service;
 
-        private readonly AlmacenDbContext context;
-        public AlmacenesController(AlmacenDbContext _context)
+        public AlmacenesController(ICRUD<Almacen> _service)
         {
-            this.context = _context;
+            service = _service; 
         }
 
-        [HttpGet("/read/{id}")]
-        public async Task<ActionResult> Read(object id)
+        [HttpPost]
+        public async Task<Almacen> Create(Almacen Entity)
         {
-            var almacenBuscado = await context.Almacenes.FindAsync(id);
-            if (almacenBuscado == null)
-            {
-                return BadRequest("No existe.");
-            }
-            return Ok(almacenBuscado);
+            return await service.Create(Entity);
+        }
+
+        [HttpGet("/{id}")]
+        public async Task<Almacen> Read(int id)
+        {
+            return await service.Read(id);
         }
 
         [HttpGet]
         public async Task<List<Almacen>> ReadAll()
         {
-            return await context.Almacenes.ToListAsync();
+            return await service.ReadAll();
         }
-
-        [HttpPost]
-        public async Task<ActionResult> Create(Almacen Entity)
-        {
-            if(Entity == null)
-            {
-                return NotFound("No es válido.");
-            }
-            await context.Almacenes.AddAsync(Entity);
-            await context.SaveChangesAsync();
-            return Ok(Entity);
-        }
-
-        [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete(Almacen Entity)
-        {
-            //Almacen? almacenBuscado = await context.Almacenes.Where(
-            //    alm => alm.Id == Entity.Id).FirstOrDefaultAsync();
-
-            if(Entity == null)
-            {
-                return NotFound("No existe.");
-            }
-            context.Almacenes.Remove(Entity);
-            await context.SaveChangesAsync();
-            return Ok(Entity);
-        }
-
 
         [HttpPut]
-        public async Task<ActionResult> Update(Almacen Entity)
+        public async Task<Almacen> Update(Almacen Entity)
         {
-            Almacen? almacenBuscado = await context.Almacenes.FindAsync(Entity.Id);
-            if (almacenBuscado == null)
-            {
-                return NotFound("No existe.");
-            }
-            almacenBuscado.Nombre = Entity.Nombre;
-            almacenBuscado.Ubicacion = Entity.Ubicacion;
-            almacenBuscado.Capacidad = Entity.Capacidad;
-            
-            context.Almacenes.Update(almacenBuscado);
-            await context.SaveChangesAsync();
-            return Ok(almacenBuscado);
+            return await service.Update(Entity);
+        }
 
+        [HttpDelete]
+        public async Task<Almacen> Delete(Almacen Entity)
+        {
+            return await service.Delete(Entity);
         }
     }
 }

@@ -4,11 +4,11 @@ namespace WebAppi_Almacenes.Interfaces
 {
     public interface ICRUD<T>
     {
-        Task<ActionResult> Create(T Entity);
-        Task<ActionResult> Read(object id);
+        Task<T> Create(T Entity);
+        Task<T> Read(object id);
         Task<List<T>> ReadAll();
-        Task<ActionResult> Update(T Entity);
-        Task<ActionResult> Delete(T Entity);
+        Task<T> Update(T Entity);
+        Task<T> Delete(T Entity);
 
     }
 }

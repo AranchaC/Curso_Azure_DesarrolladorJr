@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "WebAppi_Almacenes\\WebAppi_Almacenes.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MCV_Almacen\\MVC_Almacen.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

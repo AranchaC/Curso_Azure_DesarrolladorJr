@@ -1,15 +1,21 @@
 [
   {
     "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
-    "Method": "ReadAll",
-    "RelativePath": "api/Almacenes",
+    "Method": "Read",
+    "RelativePath": "{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[WebAppi_Almacenes.Models.Almacen, WebAppi_Almacenes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebAppi_Almacenes.Models.Almacen",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -33,7 +39,37 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "WebAppi_Almacenes.Models.Almacen",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
+    "Method": "ReadAll",
+    "RelativePath": "api/Almacenes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebAppi_Almacenes.Models.Almacen, WebAppi_Almacenes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
@@ -49,12 +85,22 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "WebAppi_Almacenes.Models.Almacen",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
     "Method": "Delete",
-    "RelativePath": "api/Almacenes/{id}",
+    "RelativePath": "api/Almacenes",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -63,35 +109,19 @@
         "Name": "Entity",
         "Type": "WebAppi_Almacenes.Models.Almacen",
         "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
-    "Method": "Read",
-    "RelativePath": "read/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+    "ReturnTypes": [
       {
-        "Name": "id",
-        "Type": "System.Object",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
+        "Type": "WebAppi_Almacenes.Models.Almacen",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
-    ],
-    "ReturnTypes": []
+    ]
   },
   {
     "ContainingType": "WebAppi_Almacenes.Controllers.WeatherForecastController",
