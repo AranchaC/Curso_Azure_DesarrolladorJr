@@ -4,7 +4,7 @@ using WebApi_Concesionario.Models;
 
 namespace WebApi_Concesionario.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ConcesionariosController : ControllerBase
     {

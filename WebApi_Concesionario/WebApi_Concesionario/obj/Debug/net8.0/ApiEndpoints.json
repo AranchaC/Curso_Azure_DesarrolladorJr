@@ -2,7 +2,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "Update",
-    "RelativePath": "Concesionarios/Actualizar almacen",
+    "RelativePath": "api/Concesionarios/Actualizar almacen",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "Read",
-    "RelativePath": "Concesionarios/Alamacen por ID",
+    "RelativePath": "api/Concesionarios/Alamacen por ID",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -54,7 +54,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "Delete",
-    "RelativePath": "Concesionarios/Borrar almacen",
+    "RelativePath": "api/Concesionarios/Borrar almacen",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -80,7 +80,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "Create",
-    "RelativePath": "Concesionarios/Crear almacen",
+    "RelativePath": "api/Concesionarios/Crear almacen",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -106,7 +106,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "CrearVarios",
-    "RelativePath": "Concesionarios/Crear varios almacenes",
+    "RelativePath": "api/Concesionarios/Crear varios almacenes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -132,7 +132,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "ReadAll",
-    "RelativePath": "Concesionarios/Lista de Almacenes",
+    "RelativePath": "api/Concesionarios/Lista de Almacenes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

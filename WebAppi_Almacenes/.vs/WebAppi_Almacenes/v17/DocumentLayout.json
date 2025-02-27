@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\services\\almacenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\services\\almacenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73EB39FE-9897-42F8-89E7-CE26C0E58984}|MCV_Almacen\\MVC_Almacen.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\mcv_almacen\\controllers\\almacencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EB39FE-9897-42F8-89E7-CE26C0E58984}|MCV_Almacen\\MVC_Almacen.csproj|solutionrelative:mcv_almacen\\controllers\\almacencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\controllers\\almacenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\controllers\\almacenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{73EB39FE-9897-42F8-89E7-CE26C0E58984}|MCV_Almacen\\MVC_Almacen.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\mcv_almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EB39FE-9897-42F8-89E7-CE26C0E58984}|MCV_Almacen\\MVC_Almacen.csproj|solutionrelative:mcv_almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\models\\almacendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\models\\almacendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|c:\\users\\global.desktop-ksbk6ef\\source\\repos\\curso_azure_desarrolladorjr\\webappi_almacenes\\webappi_almacenes\\services\\almacenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00EFEF2F-6BED-4C96-8B19-46A8528212A1}|WebAppi_Almacenes\\WebAppi_Almacenes.csproj|solutionrelative:webappi_almacenes\\services\\almacenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\MCV_Almacen\\Program.cs",
+              "RelativeDocumentMoniker": "MCV_Almacen\\Program.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\MCV_Almacen\\Program.cs",
+              "RelativeToolTip": "MCV_Almacen\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T19:33:43.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlmacenController.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\MCV_Almacen\\Controllers\\AlmacenController.cs",
+              "RelativeDocumentMoniker": "MCV_Almacen\\Controllers\\AlmacenController.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\MCV_Almacen\\Controllers\\AlmacenController.cs",
+              "RelativeToolTip": "MCV_Almacen\\Controllers\\AlmacenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T19:30:44.498Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -40,14 +78,40 @@
               "RelativeDocumentMoniker": "WebAppi_Almacenes\\Controllers\\AlmacenesController.cs",
               "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Controllers\\AlmacenesController.cs",
               "RelativeToolTip": "WebAppi_Almacenes\\Controllers\\AlmacenesController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T17:46:58.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppi_Almacenes\\Program.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Program.cs",
+              "RelativeToolTip": "WebAppi_Almacenes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:49:32.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlmacenDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Models\\AlmacenDbContext.cs",
+              "RelativeDocumentMoniker": "WebAppi_Almacenes\\Models\\AlmacenDbContext.cs",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Models\\AlmacenDbContext.cs",
+              "RelativeToolTip": "WebAppi_Almacenes\\Models\\AlmacenDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T19:05:13.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AlmacenService.cs",
               "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Services\\AlmacenService.cs",
               "RelativeDocumentMoniker": "WebAppi_Almacenes\\Services\\AlmacenService.cs",
@@ -60,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\appsettings.json",
               "RelativeDocumentMoniker": "WebAppi_Almacenes\\appsettings.json",
@@ -69,19 +133,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-26T19:50:04.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Program.cs",
-              "RelativeDocumentMoniker": "WebAppi_Almacenes\\Program.cs",
-              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebAppi_Almacenes\\WebAppi_Almacenes\\Program.cs",
-              "RelativeToolTip": "WebAppi_Almacenes\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:49:32.933Z",
               "EditorCaption": ""
             }
           ]
