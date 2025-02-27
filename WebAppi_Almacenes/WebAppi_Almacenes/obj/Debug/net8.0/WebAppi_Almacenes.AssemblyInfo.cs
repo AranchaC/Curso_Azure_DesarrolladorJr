@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAppi_Almacenes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad288c36a7b2f7d40f1bd90427fecaaa2115b4f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c2d67664412477aa52000b355d645f7951db0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAppi_Almacenes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAppi_Almacenes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,6 @@
+@WebApi_Concesionario_HostAddress = http://localhost:5119
+
+GET {{WebApi_Concesionario_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

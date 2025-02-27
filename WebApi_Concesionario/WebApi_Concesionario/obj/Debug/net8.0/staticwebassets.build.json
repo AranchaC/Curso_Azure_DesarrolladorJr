@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JKt6j0HLkr9OXFDL3toa7LYE6PvXiZVbWuAqOGuqkqs=",
+  "Source": "WebApi_Concesionario",
+  "BasePath": "_content/WebApi_Concesionario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

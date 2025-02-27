@@ -1,0 +1,195 @@
+﻿@using WebAppi_Almacenes.Models;
+@model IEnumerable<Almacen>
+@{
+    ViewBag.Title = "Gestión de Almacenes";
+    // Si usas Layout, quita o comenta la siguiente línea:
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+    <!-- DataTables (adaptado a Bootstrap 5) -->
+    <link rel="stylesheet"
+          href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" />
+
+    <style>
+        /* Fondo general gris claro */
+        body {
+            background-color: #f1f1f1;
+        }
+
+        /* Card sin bordes exagerados y con sombra suave */
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .card-header {
+            /* Tonalidad gris media para el header */
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        /* Thead principal en gris algo más oscuro */
+        .table-dark {
+            background-color: #555 !important;
+            color: #fff !important;
+        }
+
+        /* Filas menos altas: reducimos el padding de celdas */
+        table.dataTable tbody th,
+        table.dataTable tbody td,
+        table.dataTable thead th,
+        table.dataTable thead td {
+            padding: 0.4rem !important;
+        }
+
+        /* Borde de la tabla en gris suave */
+        .table-bordered > :not(caption) > * > * {
+            border-color: #ccc !important;
+        }
+
+        /* Hover de filas con un gris muy clarito */
+        table.dataTable.hover tbody tr:hover {
+            background-color: #eaeaea;
+        }
+
+        /* Inputs para filtros de columna */
+        .filter-row input {
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #fafafa;
+            border: 1px solid #ccc;
+            padding: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 class="text-center mt-4">@ViewBag.titulo</h2>
+
+    <div class="container my-4">
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <h4 class="mb-0">Listado de Almacenes</h4>
+            </div>
+            <div class="card-body px-3">
+                <!-- Tabla DataTables -->
+                <table id="almacenTable" class="table table-bordered table-hover align-middle" style="width:100%;">
+                    <thead>
+                        <!-- Fila principal de encabezados -->
+                        <tr class="table-dark">
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Ubicación</th>
+                            <th>Capacidad</th>
+                        </tr>
+                        <!-- Fila de filtros (inputs para cada columna) -->
+                        <tr class="filter-row">
+                            <th><input type="text" placeholder="Filtrar ID" /></th>
+                            <th><input type="text" placeholder="Filtrar Nombre" /></th>
+                            <th><input type="text" placeholder="Filtrar Ubicación" /></th>
+                            <th><input type="text" placeholder="Filtrar Capacidad" /></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var almacen in Model)
+                        {
+                            <tr>
+                                <td>@almacen.Id</td>
+                                <td>@almacen.Nombre</td>
+                                <td>@almacen.Ubicacion</td>
+                                <td>@almacen.Capacidad</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables + adaptación a Bootstrap 5 -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Inicializa DataTables
+            var table = $('#almacenTable').DataTable({
+                pageLength: 5,            // Máximo 5 filas por página
+                lengthMenu: [5, 10, 15],  // Opciones en selector de registros/página
+                order: [],                // Sin orden inicial (o especificar [[0,'asc']] si se desea)
+                language: {
+                    lengthMenu: "Mostrar _MENU_ registros",
+                    zeroRecords: "No se encontraron resultados",
+                    info: "Mostrando página _PAGE_ de _PAGES_",
+                    infoEmpty: "No hay registros disponibles",
+                    infoFiltered: "(filtrado de _MAX_ registros totales)",
+                    search: "Búsqueda global:",
+                    paginate: {
+                        first: "Primero",
+                        last: "Último",
+                        next: "Siguiente",
+                        previous: "Anterior"
+                    }
+                }
+            });
+
+            // Filtrado individual por columna
+            table.columns().every(function (index) {
+                var that = this;
+                $('tr.filter-row th:eq(' + index + ') input').on('keyup change', function () {
+                    if (that.search() !== this.value) {
+                        that.search(this.value).draw();
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+@* @using WebAppi_Almacenes.Models;
+@model IEnumerable<Almacen>
+
+<h2 class="text-center bg-info">@ViewBag.titulo</h2>
+
+<div class="container">
+    <table class="table table-bordered table-striped shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>NOMBRE</th>
+                <th>UBICACION</th>
+                <th>CAPACIDAD</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Almacen almacen in @Model)
+            {
+                <tr>
+                    <td>@almacen.Id</td>
+                    <th>@almacen.Nombre</th>
+                    <th>@almacen.Ubicacion</th>
+                    <th>@almacen.Capacidad</th>
+                </tr>
+            }           
+        </tbody>
+
+</table>
+</div> *@

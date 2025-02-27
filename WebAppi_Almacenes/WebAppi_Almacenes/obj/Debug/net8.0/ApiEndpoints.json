@@ -53,26 +53,6 @@
   },
   {
     "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
-    "Method": "ReadAll",
-    "RelativePath": "api/Almacenes",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[WebAppi_Almacenes.Models.Almacen, WebAppi_Almacenes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
     "Method": "Update",
     "RelativePath": "api/Almacenes",
     "HttpMethod": "PUT",
@@ -114,6 +94,26 @@
     "ReturnTypes": [
       {
         "Type": "WebAppi_Almacenes.Models.Almacen",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi_Almacenes.Controllers.AlmacenesController",
+    "Method": "ReadAll",
+    "RelativePath": "api/Almacenes/ReadAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebAppi_Almacenes.Models.Almacen, WebAppi_Almacenes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

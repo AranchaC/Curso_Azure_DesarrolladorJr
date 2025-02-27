@@ -30,7 +30,7 @@ namespace WebAppi_Almacenes.Controllers
             return await service.Read(id);
         }
 
-        [HttpGet]
+        [HttpGet("ReadAll")]
         public async Task<List<Almacen>> ReadAll()
         {
             return await service.ReadAll();
