@@ -14,13 +14,13 @@ namespace MVC_Concesionarios.Controllers
         public ConcesionarioController(IHttpClientFactory clientFactory)
         {
             httpClient = clientFactory.CreateClient("ConcesionarioApi");
-            apiUrl = "/api/Concesionarios/Lista de Almacenes";
+            apiUrl = "/api/Concesionarios";
         }
 
         public async Task<IActionResult> Index()
         {
             ViewBag.titulo = "Lista de coches";
-            var coches = await httpClient.GetFromJsonAsync<IEnumerable<Concesionario>>($"{apiUrl}/Lista%20de%20Almacenes");
+            var coches = await httpClient.GetFromJsonAsync<IEnumerable<Concesionario>>($"{apiUrl}");
             return View(coches);
         }
 

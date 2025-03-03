@@ -15,37 +15,37 @@ namespace WebApi_Concesionario.Controllers
             service = _service;
         }
 
-        [HttpPost("Crear almacen")]
+        [HttpPost("CrearAlmacen")]
         public async Task<Concesionario> Create(Concesionario entity)
         {
             return await service.Create(entity);
         }
 
-        [HttpPost("Crear varios almacenes")]
+        [HttpPost]
         public async Task<List<Concesionario>?> CrearVarios(List<Concesionario> entity)
         {
             return await service.CrearVarios(entity);
         }
 
-        [HttpGet("Alamacen por ID")]
+        [HttpGet("{id}")]
         public async Task<Concesionario> Read(int id)
         {
             return await service.Read(id);
         }
 
-        [HttpGet("Lista de Almacenes")]
+        [HttpGet]
         public async Task<List<Concesionario>> ReadAll()
         {
             return await service.ReadAll();
         }
 
-        [HttpPut("Actualizar almacen")]
+        [HttpPut]
         public async Task<Concesionario> Update(Concesionario entity)
         {
             return await service.Update(entity);
         }
 
-        [HttpDelete("Borrar almacen")]
+        [HttpDelete]
         public async Task<Concesionario> Delete(Concesionario entity)
         {
             return await service.Delete(entity);

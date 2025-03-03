@@ -1,112 +1,8 @@
 [
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
-    "Method": "Update",
-    "RelativePath": "api/Concesionarios/Actualizar almacen",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
-    "Method": "Read",
-    "RelativePath": "api/Concesionarios/Alamacen por ID",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
-    "Method": "Delete",
-    "RelativePath": "api/Concesionarios/Borrar almacen",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
-    "Method": "Create",
-    "RelativePath": "api/Concesionarios/Crear almacen",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "entity",
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApi_Concesionario.Models.Concesionario",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "CrearVarios",
-    "RelativePath": "api/Concesionarios/Crear varios almacenes",
+    "RelativePath": "api/Concesionarios",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -132,7 +28,7 @@
   {
     "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
     "Method": "ReadAll",
-    "RelativePath": "api/Concesionarios/Lista de Almacenes",
+    "RelativePath": "api/Concesionarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -140,6 +36,110 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[WebApi_Concesionario.Models.Concesionario, WebApi_Concesionario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
+    "Method": "Update",
+    "RelativePath": "api/Concesionarios",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "WebApi_Concesionario.Models.Concesionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi_Concesionario.Models.Concesionario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
+    "Method": "Delete",
+    "RelativePath": "api/Concesionarios",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "WebApi_Concesionario.Models.Concesionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi_Concesionario.Models.Concesionario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
+    "Method": "Read",
+    "RelativePath": "api/Concesionarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi_Concesionario.Models.Concesionario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi_Concesionario.Controllers.ConcesionariosController",
+    "Method": "Create",
+    "RelativePath": "api/Concesionarios/CrearAlmacen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "WebApi_Concesionario.Models.Concesionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi_Concesionario.Models.Concesionario",
         "MediaTypes": [
           "text/plain",
           "application/json",

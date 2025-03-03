@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "WebApi_Concesionario\\WebApi_Concesionario.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MVC_Concesionarios\\MVC_Concesionarios.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

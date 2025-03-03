@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Concesionarios/Crear almacen": {
+    "/api/Concesionarios/CrearAlmacen": {
       "post": {
         "tags": [
           "Concesionarios"
@@ -53,7 +53,7 @@
         }
       }
     },
-    "/api/Concesionarios/Crear varios almacenes": {
+    "/api/Concesionarios": {
       "post": {
         "tags": [
           "Concesionarios"
@@ -117,48 +117,7 @@
             }
           }
         }
-      }
-    },
-    "/api/Concesionarios/Alamacen por ID": {
-      "get": {
-        "tags": [
-          "Concesionarios"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Concesionario"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Concesionario"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Concesionario"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Concesionarios/Lista de Almacenes": {
+      },
       "get": {
         "tags": [
           "Concesionarios"
@@ -194,9 +153,7 @@
             }
           }
         }
-      }
-    },
-    "/api/Concesionarios/Actualizar almacen": {
+      },
       "put": {
         "tags": [
           "Concesionarios"
@@ -242,9 +199,7 @@
             }
           }
         }
-      }
-    },
-    "/api/Concesionarios/Borrar almacen": {
+      },
       "delete": {
         "tags": [
           "Concesionarios"
@@ -268,6 +223,46 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Concesionario"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Concesionario"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Concesionario"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Concesionarios/{id}": {
+      "get": {
+        "tags": [
+          "Concesionarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",

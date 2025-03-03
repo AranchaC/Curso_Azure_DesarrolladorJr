@@ -25,7 +25,7 @@ public partial class ConcesionarioDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Precio)
-                .HasMaxLength(50)
+                 .HasColumnType("REAL")
                 .IsUnicode(false);
         });
 
