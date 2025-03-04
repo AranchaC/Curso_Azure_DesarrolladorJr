@@ -46,9 +46,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApi_Concesionario\\MVC_Concesionarios\\Views\\Concesionario\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_Concesionarios\\Views\\Concesionario\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApi_Concesionario\\MVC_Concesionarios\\Views\\Concesionario\\Index.cshtml*",
-              "RelativeToolTip": "MVC_Concesionarios\\Views\\Concesionario\\Index.cshtml*",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAYwLsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Global.DESKTOP-KSBK6EF\\source\\repos\\Curso_Azure_DesarrolladorJr\\WebApi_Concesionario\\MVC_Concesionarios\\Views\\Concesionario\\Index.cshtml",
+              "RelativeToolTip": "MVC_Concesionarios\\Views\\Concesionario\\Index.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAwwLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-03T18:31:40.224Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "WebApi_Concesionario\\Models\\ConcesionarioDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:27:40.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T18:27:40.988Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "WebApi_Concesionario\\Models\\Concesionario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:23:16.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T18:23:16.309Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "MVC_Concesionarios\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:12:36.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T18:12:36.394Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "MVC_Concesionarios\\Controllers\\ConcesionarioController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAmwBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:58:40.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T17:58:40.088Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "WebApi_Concesionario\\Controllers\\ConcesionariosController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAuwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T19:52:29.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T19:52:29.255Z"
             }
           ]
         }
